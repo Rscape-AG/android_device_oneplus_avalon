@@ -33,6 +33,9 @@ PRODUCT_PACKAGES += \
     android.hardware.security.keymint3-service.strongbox.nxp \
     android.hardware.weaver-service.nxp
 
+# Fingerprint
+$(call soong_config_set_bool,qtidisplay,oplus_udfps,true)
+
 # LiveDisplay
 $(call soong_config_set_bool,OPLUS_LINEAGE_LIVEDISPLAY_HAL,ENABLE_SE,false)
 
