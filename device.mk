@@ -46,7 +46,8 @@ PRODUCT_PACKAGES += \
     OPlusSettingsResTarget \
     OPlusSystemUIResTarget \
     OPlusWifiResTarget \
-    SettingsResAvalon
+    SettingsResAvalon \
+    ApertureResAvalon
 
 # Regional properties
 PRODUCT_COPY_FILES += \
