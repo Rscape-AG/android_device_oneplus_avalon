@@ -43,7 +43,8 @@ PRODUCT_PACKAGES += \
     OPlusSettingsResTarget \
     OPlusSystemUIResTarget \
     OPlusWifiResTarget \
-    SettingsResAvalon
+    SettingsResAvalon \
+    UpdaterResAvalon
 
 # Regional properties
 PRODUCT_COPY_FILES += \
