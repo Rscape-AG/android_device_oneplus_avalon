@@ -6,7 +6,6 @@ ro.surface_flinger.set_touch_timer_ms=200
 
 # Graphics
 debug.sf.auto_latch_unsignaled=1
-debug.sf.latch_unsignaled=1
 
 # USB
 vendor.usb.product_string=OnePlus Nord 4
