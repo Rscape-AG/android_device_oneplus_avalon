@@ -1,9 +1,6 @@
 # Bluetooth
 bluetooth.device.default_name=OnePlus Nord 4
 
-# Display
-ro.surface_flinger.set_touch_timer_ms=200
-
 # Graphics
 debug.sf.auto_latch_unsignaled=1
 
