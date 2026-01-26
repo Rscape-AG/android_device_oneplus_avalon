@@ -47,6 +47,10 @@ PRODUCT_PACKAGES += \
     ApertureResAvalon \
     UpdaterResAvalon
 
+# Performance
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/perf/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+
 # Regional properties
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/root/vendor/odm/etc/24211/build.EU.prop:$(TARGET_COPY_OUT_ODM)/etc/24211/build.EU.prop \
