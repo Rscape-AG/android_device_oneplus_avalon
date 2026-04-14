@@ -13,6 +13,10 @@ $(call inherit-product, device/oneplus/avalon/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# EvolutionX build flags
+TARGET_HAS_UDFPS := true
+TARGET_BUILD_DEVICE_AS_WEBCAM := true
+
 PRODUCT_NAME := lineage_avalon
 PRODUCT_DEVICE := avalon
 PRODUCT_MANUFACTURER := OnePlus
